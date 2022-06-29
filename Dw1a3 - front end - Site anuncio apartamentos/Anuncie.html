@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <title> Anuncio de Apartamentos </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <script src="https://kit.fontawesome.com/32e9a8e6b5.js" crossorigin="anonymous"></script>
+        <header>
+            <div class="center">
+                <div class="DW1A3">
+                    <a href="index.html">
+                        DW1A3
+                    </a>
+                </div>
+                <div class="home_header">
+                    <a href="#">
+                        Sobre Nós
+                    </a>
+                    <a href="#">
+                        Apartamentos
+                    </a>
+                    <a href="Anuncie.html">
+                        Anuncie seu Apartamento
+                    </a>
+                    <a href="index.html">
+                        Bem-Vindo
+                    </a>
+                </div>
+            </div>
+        </header>
+        <section class="main">
+        <div class="formulario">
+            <h2>Anuncie seu imóvel</h2>
+            
+            <label id="labelEndereco" for="endereço">Endereço*</label>
+            <input type="text" id="endereco" placeholder="Digite o endereço do imóvel" required="true">
+            
+            <label id="labelCidade" for="cidade">Cidade*</label>
+            <input type="text" id="cidade" placeholder="Digite a cidade" required="true">
+
+            <label id="labelCEP" for="CEP">CEP*</label>
+            <input type="text" id="CEP" placeholder="Digite o CEP" require="true">
+
+            <label id="labelValor" for="valor">Valor*</label>
+            <input type="number" id="valor" placeholder="Digite um valor para seu imóvel">
+            
+            <p>Tipo pessoa<br>
+            <input type="radio" name="tipoPessoa" value="Corretor" checked="checked"\>Corretor Imobiliário
+            <input type="radio" name="tipoPessoa" value="CNPJ"\>CNPJ
+            <input type="radio" name="tipoPessoa" value="CPF"\>CPF
+            </p>
+
+            <button id="buttonAnunciar">Anunciar</button>
+        </div>
+        </section>
+        <footer>
+            <div class="desenvolvido">
+                <p><b>Desenvolvido por Marcelo Cruz</b></p>
+                <p><b>DW1A3</b></p>
+            </div>
+        </footer>
+        <script src="scriptAnuncio.js"></script>
+    </body>
+</html>

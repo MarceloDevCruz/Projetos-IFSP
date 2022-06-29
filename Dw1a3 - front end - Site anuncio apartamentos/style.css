@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.center{
+    max-width: 1440;
+    margin:  0 auto;
+    padding: 0 2%;
+    display: flex;
+    
+}
+
+header{
+    background-image: url('img/background2.jpg');
+    background-color: #573D3D;
+    padding: 18px 0;
+    border-bottom: 3px solid #A29587;
+}
+
+.home_header{
+    width: 100%;
+    text-align: right;
+}
+
+.home_header a{ 
+    color: white;
+    font-size:  16px;
+    text-decoration: none;
+    margin-right: 30px;
+    margin-left: 1px;
+}
+
+.DW1A3 a{
+    color: white;
+    font-size:  26px;
+    text-decoration: none;
+    margin-right: 1px;
+    margin-left: 30px;
+}
+
+.DW1A3 a:hover{
+    color:#A29587;
+}
+
+.home_header a:hover{
+    color:#A29587;
+}
+
+.home_header .cadastrar{
+    background-color:#573D3D;
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 9px;
+}
+
+i{
+    color:#573D3D;
+    font-size: 30px;
+    padding-right: 25px;
+}
+
+/*Main Section*/
+section.main{
+    background-image: url('img/background.jpg');
+    min-height: 800px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-bottom: 3px solid #A29587;
+}
+
+.conteudo_main{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 23px;
+    color:#573D3D;
+
+}
+.conteudo_main h1{
+    font-size: 30px;
+    padding-bottom: 12px;
+    padding-top: 26px;
+}
+
+.conteudo_main h2{
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.conteudo{
+    display: flex;
+    padding-top: 40px;
+}
+
+.conteudo_bloco{
+    width: 35%;
+    height: 800px;
+    background-color: #dad2cb;
+    margin-right: 2%;
+    margin-left: 2%;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+.bloco_nav {
+    width: 450px;
+    height: 800px;
+    background-color: #dad2cb;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    opacity: 0.8;
+}
+
+.Casa_propria{
+    text-align: center;
+    display: flex;
+}
+
+.titulo_pesquisa{
+    padding-top: 4%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+section.Sobre-nos{
+    color:#573D3D;
+    display:flex;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.Titulo{
+    font-size: 22px;
+}
+
+.sobre_conteudo {
+    font-size: 17px;
+    padding-top: 6px;
+    padding-left: 23%;
+    padding-right: 23%;
+}
+
+footer{
+    background-image: url('img/background2.jpg');
+    width: 100%;
+    height: 150px;
+    border-top: 3px solid #A29587;
+}
+
+.desenvolvido{
+    font-size: 17px;
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+}
+
+.formulario{
+    max-width: 500px;
+    width: 70%;
+    padding: 20px;
+    position:absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%,-35%);
+}
+
+.formulario h2 + .tituloApartamento h1{
+    text-align: center;
+    color:#573D3D;
+    margin-top: 10%;
+}
+
+.formulario input[type=text], .formulario input[type=password], .formulario input[type="email"],
+.formulario input[type="tel"], .formulario input[type="number"], .formulario input[type="date"]{
+    width: 100%;
+    height:60px;
+    border:1px solid;
+    padding-left: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+.formulario h4{
+    color:#573D3D;
+    margin-top: 5px;
+}
+
+.formulario input[type=submit], button + .apartamentos input[type=submit], button{
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    background:#573D3D;
+    border-radius: 15px;
+    color:white;
+    border:0;
+    margin-bottom: 7px;
+}
+
+.formulario input[type=submit]:hover + .apartamentos input[type=submit]:hover{
+    background-color:#2b2020;
+}
+
+label{
+    margin-right: 13px;
+}
+
+.formulario input[type="radio"]{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.formulario a + .mensagemErro{
+    color:#573D3D;
+    font-size:  16px;
+    text-decoration: none;
+}
+.formulario input[type="radio"] {
+    text-align: center;
+    margin-left: 12px;
+    margin-right: 4px;
+    margin-bottom: 15px;
+}
+
+.apartamentos {
+    width: 35%;
+    height: 800px;
+    background-color: #dad2cb;
+    margin-right: 2%;
+    margin-left: 2%;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+.tituloApartamento h1{
+    text-align: center;
+}
